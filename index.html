@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio | Lucas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topo">
+    <a class="marca" href="#inicio" aria-label="Ir para o início">
+      <span class="marca-simbolo">L</span>
+      <span>Lucas Martins Alves</span>
+    </a>
+
+    <button class="botao-menu" type="button" aria-label="Abrir menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="menu" aria-label="Menu principal">
+      <a href="#sobre">Sobre mim</a>
+      <a href="#formacao">Formação</a>
+      <a href="#portfolio">Portfólio</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero principal com apresentação visual e foto de perfil. -->
+    <section class="hero" id="inicio">
+      <div class="hero-decoracao hero-ponto" aria-hidden="true"></div>
+      <div class="hero-conteudo">
+        <h1 class="hero-nome">Lucas Martins</h1>
+        <div class="hero-composicao">
+          <div class="hero-titulo">
+            <span>Full Stack</span>
+            <figure class="hero-foto">
+              <img src="assets/Profile-image.png" alt="Foto de Lucas Martins">
+            </figure>
+            <span>Developer</span>
+          </div>
+          <p class="hero-descricao">
+            Sou um desenvolvedor full stack do Brasil
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção com resumo profissional e principais experiências. -->
+    <section class="secao" id="sobre">
+      <div class="cabecalho-secao">
+        <p class="etiqueta">Sobre mim</p>
+        <h2>Apresentação pessoal</h2>
+      </div>
+      <div class="grade-duas-colunas">
+        <article class="bloco-texto">
+          <p>
+            Meu nome é Lucas Martins Alves, nasci e fui criado em Balsas, no
+            Maranhão. Estudo desenvolvimento de software desde 2017 e comecei a
+            atuar profissionalmente na área em 2022.
+          </p>
+          <p>
+            Durante a maior parte da minha trajetória trabalhei com
+            desenvolvimento web, mas também desenvolvi projetos para desktop e
+            mobile. Tenho experiência com diferentes ferramentas do ecossistema
+            Node.js e com C#, sempre buscando criar soluções funcionais,
+            organizadas e fáceis de manter.
+          </p>
+        </article>
+        <aside class="lista-destaques" aria-label="Experiências principais">
+          <h3>Experiência</h3>
+          <ul>
+            <li>Desenvolvimento web</li>
+            <li>Projetos desktop e mobile</li>
+            <li>Node.js</li>
+            <li>C#</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Linha do tempo com formação acadêmica, estudos e idiomas. -->
+    <section class="secao faixa" id="formacao">
+      <div class="cabecalho-secao">
+        <p class="etiqueta">Formação</p>
+        <h2>Educação e aprendizado</h2>
+      </div>
+      <div class="linha-do-tempo">
+        <article>
+          <span>Atual</span>
+          <h3>Curso superior na Uninter</h3>
+          <p>
+            Formação em andamento, com estudos voltados para fundamentos da
+            programação, desenvolvimento web, aplicações móveis e boas práticas
+            de construção de software.
+          </p>
+        </article>
+        <article>
+          <span>Estudos</span>
+          <h3>Software desde 2017</h3>
+          <p>
+            Minha base de estudos começou em 2017, explorando lógica,
+            desenvolvimento web e construção de aplicações. Desde então, venho
+            aprofundando conhecimentos em JavaScript, Node.js, C# e fundamentos
+            para projetos web, desktop e mobile.
+          </p>
+        </article>
+        <article>
+          <span>Idiomas</span>
+          <h3>Idiomas e documentação</h3>
+          <p>
+            Português nativo e leitura de inglês técnico aplicado a documentação,
+            ferramentas, mensagens de erro e materiais de estudo em programação.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Cards com projetos reais e links externos do portfólio. -->
+    <section class="secao" id="portfolio">
+      <div class="cabecalho-secao">
+        <p class="etiqueta">Portfólio</p>
+        <h2>Projetos</h2>
+      </div>
+      <div class="grade-projetos">
+        <article class="projeto">
+          <div class="projeto-topo">
+            <span>01</span>
+            <h3>Guard.in</h3>
+          </div>
+          <p>
+            Plataforma web desenvolvida para apoiar rotinas de controle,
+            organização e acompanhamento de informações em ambiente digital.
+          </p>
+          <a href="https://guard-in.lukas-sistemas.com.br/" target="_blank" rel="noopener noreferrer">Acessar projeto</a>
+        </article>
+        <article class="projeto">
+          <div class="projeto-topo">
+            <span>02</span>
+            <h3>Lukas Sistemas</h3>
+          </div>
+          <p>
+            Site institucional da Lukas Sistemas, criado para apresentar serviços,
+            soluções e presença digital da marca na web.
+          </p>
+          <a href="https://lukas-sistemas.com.br/" target="_blank" rel="noopener noreferrer">Acessar site</a>
+        </article>
+        <article class="projeto">
+          <div class="projeto-topo">
+            <span>03</span>
+            <h3>Portfólio pessoal</h3>
+          </div>
+          <p>
+            Página desenvolvida para reunir minha trajetória, formação, projetos e
+            informações de contato em um único currículo online.
+          </p>
+          <a href="#inicio">Ver nesta página</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Formulário demonstrativo validado com JavaScript. -->
+    <section class="secao faixa" id="contato">
+      <div class="cabecalho-secao">
+        <p class="etiqueta">Contato</p>
+        <h2>Envie uma mensagem</h2>
+      </div>
+      <div class="contato-layout">
+        <div class="contato-info">
+          <h3>Vamos conversar</h3>
+          <p>
+            Preencha o formulário para entrar em contato. A validação acontece no
+            próprio navegador para garantir que os campos principais estejam
+            preenchidos corretamente.
+          </p>
+          <div class="mensagem-preview" aria-live="polite">
+            <p class="mensagem-preview-vazio">Os dados enviados aparecerão aqui.</p>
+          </div>
+        </div>
+
+        <form class="formulario" novalidate>
+          <label for="nome">Nome</label>
+          <input id="nome" name="nome" type="text" autocomplete="name">
+          <span class="erro" data-erro="nome"></span>
+
+          <label for="email">E-mail</label>
+          <input id="email" name="email" type="email" autocomplete="email">
+          <span class="erro" data-erro="email"></span>
+
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" rows="5"></textarea>
+          <span class="erro" data-erro="mensagem"></span>
+
+          <button class="botao primario" type="submit">Enviar mensagem</button>
+          <p class="retorno" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <p>&copy; 2026 Lucas. Portfólio desenvolvido com HTML, CSS e JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

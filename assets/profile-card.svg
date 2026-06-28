@@ -1,0 +1,21 @@
+<svg width="720" height="520" viewBox="0 0 720 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="titulo descricao">
+  <title id="titulo">Cartão visual do portfólio</title>
+  <desc id="descricao">Ilustração abstrata com elementos de código, perfil e interface.</desc>
+  <rect width="720" height="520" rx="18" fill="#F2E8DA"/>
+  <rect x="44" y="48" width="632" height="424" rx="16" fill="#FFFFFF" stroke="#D8CBB9" stroke-width="4"/>
+  <rect x="82" y="86" width="556" height="58" rx="12" fill="#0F766E"/>
+  <circle cx="116" cy="115" r="8" fill="#FFFFFF"/>
+  <circle cx="144" cy="115" r="8" fill="#F97316"/>
+  <circle cx="172" cy="115" r="8" fill="#FACC15"/>
+  <circle cx="204" cy="262" r="74" fill="#14B8A6"/>
+  <circle cx="204" cy="238" r="30" fill="#FFF7ED"/>
+  <path d="M140 338C151 300 174 283 204 283C234 283 257 300 268 338H140Z" fill="#FFF7ED"/>
+  <rect x="322" y="194" width="236" height="20" rx="10" fill="#1F2933"/>
+  <rect x="322" y="236" width="286" height="18" rx="9" fill="#94A3B8"/>
+  <rect x="322" y="272" width="226" height="18" rx="9" fill="#CBD5E1"/>
+  <rect x="86" y="390" width="128" height="32" rx="8" fill="#C2410C"/>
+  <rect x="236" y="390" width="128" height="32" rx="8" fill="#0F766E"/>
+  <rect x="386" y="390" width="128" height="32" rx="8" fill="#1F2933"/>
+  <path d="M584 330L618 362L584 394" stroke="#C2410C" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M560 330L526 362L560 394" stroke="#0F766E" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
